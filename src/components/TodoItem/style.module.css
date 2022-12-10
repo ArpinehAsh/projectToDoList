@@ -1,0 +1,46 @@
+.todoBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    border-bottom: 1px solid rgb(208, 202, 202);
+    height: 50px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.todoBlockNamePart {
+    display: flex;
+    word-break: break-word;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    
+ 
+}
+.btnX{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: white;
+}
+
+.isCompleted {
+    font-size: 18px;
+    color: rgba(0,0,0,0.5)
+} 
+
+.checkboxLabel {
+    position: relative;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 2px solid rgb(13, 165, 170);
+}

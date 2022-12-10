@@ -1,0 +1,14 @@
+.container{
+    margin-top: 100px;
+}
+
+.title{
+    text-align: center;
+    color: rgb(130, 124, 124);
+}
+.description{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(82, 80, 80);
+    text-align: center;
+}

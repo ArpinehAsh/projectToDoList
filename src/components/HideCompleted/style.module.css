@@ -1,0 +1,10 @@
+.completed{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.completed input {
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
